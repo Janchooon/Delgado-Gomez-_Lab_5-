@@ -18,7 +18,7 @@ Encriptado_DES = DES.encrypt(TextoPlano)
 
 Valor_P = 173
 Valor_Q = 50
-Valor_A = 13
+Valor_A = int(input("Ingrese valor A secreto: "))
 
 Valor_Ax = str((Valor_Q^Valor_A)%Valor_P) 
 
